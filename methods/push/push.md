@@ -13,3 +13,15 @@ let total = sports.push('football', 'swimming')
 console.log(sports)  // ['soccer', 'baseball', 'football', 'swimming']
 console.log(total)   // 4
 ```
+
+## merging two arrays
+
+it's possible to merge to arrays using the spread operatod (`...`):
+
+```jsx
+let sports = ['soccer', 'basketball']
+let moreSports = ['tennis', 'baseball']
+
+sports.push(...moreSports);
+console.log(sports); // [ 'soccer', 'basketball', 'tennis', 'baseball' ]
+```
