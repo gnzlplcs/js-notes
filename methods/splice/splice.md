@@ -22,3 +22,7 @@ splice(start, deleteCount)
 splice(start, deleteCount, item1)
 splice(start, deleteCount, item1, itemN)
 ```
+
+## add elements to an array
+
+`.splice()` also can be used to add elements to an array without deleting other elements `arr.splice(index, 0, element)`. this technique changes element's indices after the inserted element or elements.

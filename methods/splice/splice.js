@@ -6,6 +6,13 @@ let newArray = array.splice(3, 2);
 console.log(array) // [ 'I', 'am', 'feeling' ]
 console.log(newArray) // [ 'really', 'happy' ]
 
+// add elements with replacing other element
+
+let array2 = ['moon', 'sun', 'stars'];
+const element = 'satellite';
+array2.splice(2, 0, element);
+console.log(array2)
+
 // challenge (remove): We've initialized an array arr. Use splice() to remove elements from arr, so that it only contains elements that sum to the value of 10.
 
 const arr = [2, 4, 5, 1, 7, 5, 2, 1];
